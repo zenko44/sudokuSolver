@@ -24,7 +24,7 @@ sudoku_array = ([0, 2, 0,  0, 0, 4,  3, 0, 0],
 def print_board(board):
     for i in range(len(board)):
         if i % 3 == 0 and i != 0:
-            print("- - - - - - - - - - - - - ")
+            print("+ + + + + + + + + + + + + ")
 
         for x in range(len(board[0])):
             if x % 3 == 0 and x != 0:
